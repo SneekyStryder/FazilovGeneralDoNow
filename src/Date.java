@@ -24,4 +24,11 @@ public class Date {
         System.out.println(day + "/" + month + "/" + year);
     }
 
+    public String toString()
+    {
+        String returnString = day + "/"+ month + "/" + year;
+        return returnString;
+    }
+
+
 }
